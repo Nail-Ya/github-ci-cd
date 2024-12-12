@@ -10,8 +10,8 @@ function MainPage() {
 
   return (
     <Layout>
-      <h1>Test!555</h1>
-      <h1>Gitlab CI/CD</h1>
+      <h1>Test!</h1>
+      <h1>Github CI/CD</h1>
       <h1>{testData ? 'Данные загружены' : 'Данных нет'}</h1>
       <button onClick={() => dispatch(loadTestData())}>Загрузить данные</button>
       <button style={{marginLeft: '20px'}} onClick={() => dispatch(resetTestData())}>Удалить данные</button>
