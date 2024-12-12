@@ -28,7 +28,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     container:
-      image: <repository_name>/<image_name>:latest
+      image: github-ci-cd/galimovn/test-app:latest
       credentials:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_PASSWORD }}
