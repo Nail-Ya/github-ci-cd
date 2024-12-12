@@ -10,7 +10,6 @@ function MainPage() {
 
   return (
     <Layout>
-      {error}
       <h1>Test!</h1>
       <h1>Github CI/CD</h1>
       <h1>{testData ? 'Данные загружены' : 'Данных нет'}</h1>
